@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h2 class="logo">
+          <span class="mdi mdi-view-dashboard"></span>Dashboard
+        </h2>
+        <nav class="nav">
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-home"></span>Home
+          </a>
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-face-man-profile"></span>Profile</a
+          >
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-message"></span>Messages</a
+          >
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-history"></span>History</a
+          >
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-file-multiple-outline"></span>Tasks</a
+          >
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-account-group"></span>Communities</a
+          >
+        </nav>
+        <div class="nav-footer">
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-cog"></span>Settings</a
+          >
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-help-box"></span>Support</a
+          >
+          <a href="#" class="nav-link"
+            ><span class="mdi mdi-security"> </span>Security</a
+          >
+        </div>
+      </aside>
 
+      <!-- Header -->
+      <header class="header">
+        <div class="user-info">
+          <span class="mdi mdi-magnify"></span>
+          <input type="text" class="search-input" placeholder="Search..." />
+
+          <span class="mdi mdi-bell-ring-outline"></span>
+          <div class="logo-icon">
+            <img src="profile-cat.png" alt="Profile Icon" />
+          </div>
+          <h4>Morgan Oakley</h4>
+        </div>
+        <div class="header-actions">
+          
+            <div class="lalo">
+              <div class="logo-icon">
+                <img src="profile-cat.png" alt="Profile Icon" />
+              </div>
+  
+              <h2>
+                <p>Hi there</p>
+                
+                <strong>Morgan Oakley</strong>
+              </h2>
+            </div>
+         
+
+          <div class="lola">
+            <button class="btn">New</button>
+            <button class="btn">Upload</button>
+            <button class="btn">Share</button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <section class="projects">
+          <h3>Your Projects</h3>
+          <div class="cards">
+            <div class="card">Super Cool Project</div>
+            <div class="card">Less Cool Project</div>
+            <div class="card">Impossible App</div>
+            <div class="card">Easy Peasy App</div>
+
+          </div>
+        </section>
+
+        <section class="announcements">
+          <h3>Announcements</h3>
+          <div class="card">Site Maintenance</div>
+          <div class="card">Community Share Day</div>
+          <div class="card">Updated Privacy Policy</div>
+        </section>
+
+        <section class="trending">
+          <h3>Trending</h3>
+          <div class="card">@tegan - World Peace Builder</div>
+          <div class="card">@morgan - Super Cool Project</div>
+          <div class="card">@kendall - Life Changing App</div>
+          <div class="card">@alex - No Traffic Maker</div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
